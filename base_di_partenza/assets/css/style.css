@@ -264,30 +264,31 @@ footer a {
     font-size: 2rem;
   }
 }
+
 @media screen and (min-width: 1200px) {
   header {
     font-size: 2rem;
-    text-align: center; /* Per centrare il contenuto */
-    padding: 2rem 0; /* Aggiungi padding per allineamento verticale */
+    text-align: center;
+    padding: 2rem 0;
     vertical-align: middle;
   }
 
   header div {
     display: inline-block;
-    width: 60%; /* Imposta una larghezza per distribuire meglio gli elementi */
-    text-align: left; /* Allinea il logo e il testo all'inizio */
-    vertical-align: middle; /* Allinea verticalmente al centro */
+    width: 60%;
+    text-align: left;
+    vertical-align: middle;
   }
 
   header div img {
-    vertical-align: middle; /* Centra l'immagine */
+    vertical-align: middle;
     margin: 0;
   }
 
   header div p {
     display: inline-block;
-    vertical-align: middle; /* Centra verticalmente il testo */
-    margin: 0; /* Distanza tra logo e testo */
+    vertical-align: middle;
+    margin: 0;
   }
 
   header nav {
@@ -360,6 +361,10 @@ footer a {
   }
   aside h2 {
     font-size: 3.6rem;
+  }
+  aside {
+    width: 100%;
+    text-align: center;
   }
   aside div {
     display: inline-block;
